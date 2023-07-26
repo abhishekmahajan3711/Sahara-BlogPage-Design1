@@ -1,0 +1,195 @@
+body {
+  background: #ffecef;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left: 6%;
+}
+
+.navbar-text {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 29px;
+
+  margin: 4px 20px;
+
+  color: #000000;
+}
+
+.active {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 29px;
+  text-decoration: underline;
+
+  margin: 4px 20px;
+
+  color: #000000;
+}
+.Sidecomp {
+  position: absolute;
+  width: 5%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: #372948;
+  border-radius: 0px 0px 5000px 0px;
+}
+
+.Sidecomp-text {
+  position: absolute;
+  width: 1000px;
+  height: 25%;
+  top: 530px;
+  left: -525px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+
+  color: #ffffff;
+
+  transform: rotate(90deg);
+}
+
+.P-main {
+  position: relative;
+  height: 170px;
+  width: 800px;
+  margin-left: 7%;
+  margin-top: 2%;
+
+  background: #ffcaca;
+  border-radius: 147px;
+}
+
+.P-img img {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  left: 6%;
+
+  border: 1px solid black;
+  border-radius: 127px;
+}
+
+.P-title {
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  left: 40%;
+  top: 0;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 39px;
+
+  color: #137803;
+}
+
+.P-description {
+  position: absolute;
+  width: 55%;
+  height: 80%;
+  left: 40%;
+  top: 20%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 1em;
+
+  color: #000000;
+}
+
+.P-read {
+  position: absolute;
+  width: 30%;
+  height: 10%;
+  left: 40%;
+  top: 80%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 24px;
+  text-decoration-line: underline;
+
+  color: #1173a4;
+}
+
+.ShareStory {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  border: 2px solid black;
+  padding: 30px;
+  width: 58%;
+}
+
+.form-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 24px;
+}
+
+.shareStory-button {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.btn {
+  border-radius: 12px;
+  text-shadow: 1px 1px 3px #e9b0b0;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #e083cb;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3c99;
+  text-decoration: none;
+}
+
+.specific {
+  position: absolute;
+  left: 10%;
+  top: 18%;
+  height: 70%;
+  width: 80%;
+}
+
+.specific-img {
+  height: 60%;
+  width: 40%;
+}
+.specific-text {
+  height: 50%;
+  width: 100%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 2em;
+
+  color: #000000;
+}
